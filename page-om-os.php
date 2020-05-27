@@ -108,7 +108,7 @@
       <h1 class="  text-white font-weight-bold  pt-5">
         Hos Dahlgaard </h1>
     </div>
-    <div class="p-2 bd-highlightw text-white">
+    <div class="p-2 bd-highlight text-white">
       <p>En afgørende faktor for os er, at ejerkredsen samtidigt er en del af ledelsen, hvilket giver en hurtig og smidig beslutningsproces. For at opnå den nødvendige sparring udefra til ledelsen, har vi tilknyttet erfarne erhvervsledere i vor bestyrelse.</p>
     </div> 
   </div>
@@ -125,14 +125,14 @@
       <h6 class="font-weight-bold">
         Direktion, salg/kalkulation samt administration</h6> 
        </div> 
-       <div class="bd-highlightw font-weight-light text-white "><p>           Selskabets direktion er sammenfaldende med anpartshaver  Martin Dahlgaard Nielsen, der samtidigt fungere som daglig leder af vores fastansatte timlønnede medarbejdere – sammen med Jesper Rasmussen der har ansvar for salg & kalkulationsafdeling. Vores aktiviteter er primært på Sjælland, og syd Sverige.
+       <div class="bd-highlight font-weight-light text-white "><p>           Selskabets direktion er sammenfaldende med anpartshaver  Martin Dahlgaard Nielsen, der samtidigt fungere som daglig leder af vores fastansatte timlønnede medarbejdere – sammen med Jesper Rasmussen der har ansvar for salg & kalkulationsafdeling. Vores aktiviteter er primært på Sjælland, og syd Sverige.
        </p> </div>
 
        <div class="bd-highlight text-white">
         <h6 class="font-weight-bold">
           Egenproduktion</h6> 
          </div> 
-         <div class="bd-highlightw font-weight-light text-white"><p>           Vor egenproduktionsafdeling omfatter ca. 15 til 20 dygtige og faglærte håndværkere inden for tømrere & snedker. Det er en grundsten for os at inddrage vor egenproduktion i det enkelte projekt, hvorved der opnås et stort, fagligt ejerskab til projekterne.
+         <div class="bd-highlight font-weight-light text-white"><p>           Vor egenproduktionsafdeling omfatter ca. 15 til 20 dygtige og faglærte håndværkere inden for tømrere & snedker. Det er en grundsten for os at inddrage vor egenproduktion i det enkelte projekt, hvorved der opnås et stort, fagligt ejerskab til projekterne.
 
          </p> </div>
 
@@ -140,7 +140,7 @@
           <h6 class="font-weight-bold">
             Bestyrelsen</h6> 
            </div> 
-           <div class=" bd-highlightw font-weight-light text-white"><p>Da ejerkredsen samtidigt er en aktiv del af hverdagen i virksomheden og tillige med i bestyrelsen, har vi valgt at inddragne eksterne, erfarne erhvervsledere i vor bestyrelse, så der opnås en god sparring med input udefra.
+           <div class=" bd-highlight font-weight-light text-white"><p>Da ejerkredsen samtidigt er en aktiv del af hverdagen i virksomheden og tillige med i bestyrelsen, har vi valgt at inddragne eksterne, erfarne erhvervsledere i vor bestyrelse, så der opnås en god sparring med input udefra.
            </p> </div>
     
 
