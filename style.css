@@ -1,0 +1,135 @@
+/*
+Theme Name: dahlgaard-byg-entreprise
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: Anjali Aron Sangwan
+Author URI: http://wordpress.org/
+Description: Customizes Wordpress theme, made with Bootstrap. Featuring a filter gallery, each displayed beautifully. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+*/
+
+/* GENRELLE STYLES FOR: projekter, om os, kontakt */
+body {
+  background-color: #16384e;
+}
+
+.navbar {
+  background-color: #16384e !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: #54b0e3;
+  border-color: #54b0e3;
+}
+
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* INDEX */
+.bg-light {
+  background-color: #ef794a !important;
+  border-radius: 10px;
+}
+
+/* PROJEKTER */
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.body {
+  overflow: auto;
+}
+
+u {
+  text-decoration: underline;
+}
+
+.btn-light {
+  background-color: #16384e;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.container {
+  background-color: #16384e;
+  overflow: auto;
+}
+
+.row {
+  background-color: #16384e;
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn {
+    align-items: center;
+  }
+
+  .btn.filter {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    align-items: center;
+  }
+}
+
+/* OM OS */
+.container-values {
+  background-color: #ffffff;
+  height: 400px;
+  overflow: hidden;
+}
+
+.nav-tabs > li > a {
+  color: #000000;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 20%;
+  border: 2px solid #e3e8ef;
+  margin: 8px;
+}
+
+.nav-tabs {
+  border-bottom: 0px;
+}
+
+.row {
+  background-color: #16384e;
+}
