@@ -1,23 +1,25 @@
 <?php get_header(); ?>
 
 <body > 
-    <!-- Hovedtitel med beskrivelse -->
-    <main role="main" class="flex-shrink-0">
+     <!-- Main titel and a descrition of Dahlgaard -->
+     <main role="main" class="flex-shrink-0">
       <div class="container">
-        <h1 class="mr-5 mb-7 display-4 text-white font-weight-bold">
+        <h1 class="mr-5 mb-7 display-4 text-white">
           Vil du starte et projekt med os eller bare sige hej? Vil vi rigtig
           gerne høre mere fra dig.
         </h1>
       </div>
     </main>
 
-    <div class="col-md-5">
+   <!-- Image of the employees  -->
+
+   <div class="container">
       <img
-        src="<?php echo get_template_directory_uri(); ?>/img/slide_1.jpg"
-        width="450"
-        height="250"
+        src="/images/medarbejder_omos.jpg"
+        width="500"
+        height="300"
         alt="Responsive image"
-        class="img-fluid"
+        class="img-fluid mb-7"
       />
     </div>
 </body>
