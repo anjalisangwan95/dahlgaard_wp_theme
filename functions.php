@@ -20,6 +20,7 @@ function dbe_theme_js() {
     wp_register_script( 'Bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', null, null, true );
     wp_enqueue_script('Bootstrap_js');
     wp_enqueue_script('Projekter_js', get_template_directory_uri() . "/projekter.js", array('jQuery'), '', true);
+    wp_enqueue_script('Index_js', get_template_directory_uri() . "/index.js", array('jQuery'), '', true);
 
 }
 
