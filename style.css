@@ -13,21 +13,23 @@ Text Domain: twentythirteen
 
 /* GENRELLE STYLES FOR: projekter, om os, kontakt */
 body {
-  background-color: #16384e;
+  margin: 0;
+  /* bruges hvis man vil have billede som baggrund*/
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .navbar {
-  background-color: #16384e !important;
+  /*bruges hvis man vil have billede som baggrund*/
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .navbar-light .navbar-toggler {
   color: #54b0e3;
   border-color: #54b0e3;
-}
-
-.navbar-light .navbar-toggler {
-  color: #ffffff;
-  border-color: #ffffff;
 }
 
 /* INDEX */
@@ -36,6 +38,17 @@ body {
   border-radius: 10px;
 }
 
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+#figur {
+  display: none;
+}
+.container-custom {
+  background-color: white;
+}
 /* PROJEKTER */
 .gallery {
   -webkit-column-count: 3;
@@ -46,6 +59,8 @@ body {
   column-width: 33%;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
+  background-color: #ffffff;
 }
 
 .gallery .pics {
@@ -68,19 +83,11 @@ u {
 }
 
 .btn-light {
-  background-color: #16384e;
+  background-color: #16384e5d;
+
   border: 1px solid #ffffff;
   box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
-}
-
-.container {
-  background-color: #16384e;
-  overflow: auto;
-}
-
-.row {
-  background-color: #16384e;
 }
 
 @media (max-width: 450px) {
@@ -105,13 +112,7 @@ u {
     align-items: center;
   }
 }
-
 /* OM OS */
-.container-values {
-  background-color: #ffffff;
-  height: 400px;
-  overflow: hidden;
-}
 
 .nav-tabs > li > a {
   color: #000000;
@@ -122,14 +123,10 @@ u {
   text-decoration: none;
   background-color: transparent;
   border-radius: 20%;
-  border: 2px solid #e3e8ef;
+  border: 2px solid #c2c9d3;
   margin: 8px;
 }
 
 .nav-tabs {
   border-bottom: 0px;
-}
-
-.row {
-  background-color: #16384e;
 }

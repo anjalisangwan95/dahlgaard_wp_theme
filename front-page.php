@@ -1,13 +1,14 @@
 <?php get_header('front-page'); ?>
 
   <body> 
-    <!-- TEKST Introduktion -->
+    
+    <!-- Descrption teskt an introduktion -->
     <main role="main" class="inner cover">
       <div class="d-inline-flex flex-column bd-highlight">
         <div class="mx-7 mt-6 mb-0 p-6 bd-highlight">
           <blockquote class="blockquote text-center text-white">
-            <p class="mb-0 h1 font-weight-bold">
-              Vi udføre hovedentrepriser hurtigt og professionelt, samt
+            <p class="mb-0 h1">
+              Vi udføre hovedrentrepriser hurtigt og professionelt, samt
               fagentrepriser inden for renovering og nybyg, vil vi være en stærk
               partner i byggebranchen.
             </p>
@@ -28,15 +29,16 @@
     </main>
 
     <!-- Visuel element -->
-    <div class="d-flex p-2 bd-highlight">
+    <div class="d-flex p-2 bd-highlight position-fixed">
       <img
+        id="figur"
         src="<?php echo get_template_directory_uri(); ?>/img/forside_element.png"
         class="img-fluid"
         alt="Responsive image"
       />
     </div>
+
   </body>
 
 
-
-
+  <?php get_footer('front-page'); ?>

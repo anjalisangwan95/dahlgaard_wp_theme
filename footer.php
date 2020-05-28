@@ -1,6 +1,6 @@
  <!-- FOOTER KODE - DENNE KODE VIL VÆRE GÆLDENDE PÅ ALLE SIDER -->
   <footer
-    class="container-fluid p-5"
+    class="container-fluid p-5" style="background-color: #16384e; overflow: auto;"
   >
     <div class="row">
       <div class="col-4 col-md">
@@ -88,6 +88,21 @@
           </li>
         </ul>
       </div>
+       <!-- Sociale medie ikoner -->
+     <div class="col-4 col-md">
+      
+      <a class="btn white" type="button" href="#">
+     <i class="fa fa-facebook-square fa-2x " style="color: white;"></i>
+   </a>
+
+   <a class="btn white" type="button" href="#">
+    <i class="fa fa-linkedin fa-2x " style="color: white; "></i>
+   </a>
+ 
+
+      
+    
+   </div>
     </div>
   </footer>
 

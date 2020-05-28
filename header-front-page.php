@@ -22,6 +22,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" type="image/png" href="/Images/favicon.png" />
   </head>
 
@@ -32,3 +36,4 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/dahlgaard_logo.png" width="200" height="150" alt="" />
       </a>
     </nav>
+   

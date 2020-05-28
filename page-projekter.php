@@ -2,12 +2,12 @@
 
 <body> 
    <!-- Hovedtitel med beskrivelse -->
-    <main role="main" class="flex-shrink-0" style="background-color: #16384e;">
+    <main role="main" class="flex-shrink-0">
       <div class="container">
-        <h1 class="mt-5 display-1 font-weight-bold text-center text-white">
+        <h1 class="mt-5 display-1  text-white">
           Projekter
         </h1>
-        <p class="lead text-center mt-5 text-white">
+        <p class="lead mt-5 text-white">
           <small
             >Et udvalg af vores fineste arbejde alt fra entreprise til
             boligbyggeri.</small

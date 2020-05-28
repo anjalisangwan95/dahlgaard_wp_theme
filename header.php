@@ -50,7 +50,7 @@
       >
         <div class="navbar-nav">
           <a
-            class="pr-4 nav-item nav-link active font-weight-bold text-success"
+            class="pr-4 nav-item nav-link active text-white "
             href="<?php echo site_url('/projekter'); ?>"
           >
             <u>Projekter</u> <span class="sr-only">(current)</span></a
